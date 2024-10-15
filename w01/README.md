@@ -13,12 +13,18 @@ Terminalを開く（Terminalでの操作は$で示す．$の前はディレク�
 # w01.3 README.mdの表示
 ~$ emacs -nw ta_pp2/w01/README.md
 
+# w01.4 Terminalを上下に分割
+C-x 2 Terminalの画面を上下に2分割します
+C-x o カーソルが上下移動できます
+C-x a 移動した画面の中でTerminalを起動できます（本講義では主に下画面で使用します）
+
 ## [w01] PyPDF2 モジュールの基本操作を理解しよう ##
 
 # w01.4 入力ファイルの確認
 FilesでHome -> ta_pp2 -> w01 -> pypdf -> input -> meetingminutes.pdfの内容を確認する
 
 # w01.5 プログラムの実行
+カーソルが下画面にあること，C-x a でTerminalを起動していることを確認してから下記の操作を行いましょう
 ~/ta_pp2/w01$ cd pypdf
 ~/ta_pp2/w01/pypdf$ ls
 ~/ta_pp2/w01/pypdf$ ./command.sh
@@ -31,22 +37,26 @@ division.pdfのウィンドウを閉じる（右上のx印をクリック）
 FilesでHome -> ta_pp2 -> w01 -> pypdf -> output -> division.pdfの内容を確認する
 
 # w01.7 プログラムの確認
+C-x o でカーソルを上画面に移動させましょう
 C-x C-f ~/ta_pp2/w01/pypdf/basic_operation.py
 C-x k RET
 
 # w01.8 出力ファイルの削除
+C-x o カーソルを下画面に移動させましょう
 ~/ta_pp2/w01/pypdf$ ls
 ~/ta_pp2/w01/pypdf$ ./clean.sh
 ~/ta_pp2/w01/pypdf$ ls
 
 ## [w01] docx モジュールの基本操作を理解しよう ##
 # w01.9 プログラムの確認
+C-x o でカーソルを上画面に移動させましょう
 ~/ta_pp2/w01/pypdf$ cd ../docx
 ~/ta_pp2/w01/docx$ ls
 C-x C-f ~/ta_pp2/w01/docx/basic_operation.py
 C-x k RET
 
 # w01.10 プログラムの実行
+C-x o でカーソルを下画面に移動させましょう
 ~/ta_pp2/w01/docx$ ./command.sh
 
 # w01.11 出力ファイルの確認
@@ -76,7 +86,7 @@ Q4. '以上'を右寄せに指定しよう（ヒント：Q2. と同じ）
 C-x C-f ~/ta_pp2/w01/practice/question.py
 C-x k RET
 
-# w01.16 プログラムの実行
+# w01.16 ???を埋めたら，プログラムの実行
 ~/ta_pp2/w01/practice$ ./command.sh
 
 # w01.17 出力ファイルの確認
