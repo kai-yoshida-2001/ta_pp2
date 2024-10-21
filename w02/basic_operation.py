@@ -2,7 +2,8 @@
 
 import re
 
-# 電話番号形式の正規表現
+# 電話番号形式を指定して，正規表現パターンをRegexオブジェクトに変換する
+# re.compile()が，Regexオブジェクトに変換する関数
 pattern = re.compile(r'\d{3}-\d{4}')
 
 # search()メソッドを使い，一致する最初の部分を見つける
