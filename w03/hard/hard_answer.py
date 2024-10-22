@@ -23,8 +23,9 @@ phone_pattern = re.compile(r'\d{3}-\d{4}-\d{4}')
 phone_numbers = phone_pattern.findall(text)
 
 if phone_numbers:
+    print("以下の電話番号が見つかりました")
     for i, num in enumerate(phone_numbers, start=1):
-        print(f"{1}. {num}")
+        print(f"{i}. {num}")
     print("===============")
     
     # Q7. 番号付きのリスト表示となるように設定しよう
