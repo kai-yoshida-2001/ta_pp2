@@ -24,7 +24,6 @@ phone_numbers = phone_pattern.???(text)
 
 if phone_numbers:
     for i, num in enumerate(phone_numbers, start=1):
-        print(f"{i}.{num}")
     
     # Q7. 番号付きのリスト表示となるように設定しよう
     chose_phone = pyip.input???(phone_numbers,
