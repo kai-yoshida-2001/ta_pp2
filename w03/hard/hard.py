@@ -23,10 +23,8 @@ phone_pattern = re.(r'\d{?}-\d{?}-\d{?}')
 phone_numbers = phone_pattern.???(text)
 
 if phone_numbers:
-    print("以下の電話番号が見つかりました")
     for i, num in enumerate(phone_numbers, start=1):
         print(f"{i}.{num}")
-    print("===============")
     
     # Q7. 番号付きのリスト表示となるように設定しよう
     chose_phone = pyip.input???(phone_numbers,
