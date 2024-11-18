@@ -63,7 +63,7 @@ C-x o
 ~/ta_pp2/w06/normal$ ls
 ~/ta_pp2/w06/normal$ ./command.sh
 
-# w05.8 command.shの編集
+# w06.8 command.shの編集
 C-x o
 C-x C-f ~/ta_pp2/w06/normal/command.sh
 
