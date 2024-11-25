@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from PIL import Image, ImageDraw, ImageFont
+import os
 
 # Q1. 'input'ディレクトリにある'example.png'を'open'メソッドを使って設定しよう
 img_1 = Image.open('./input/example.png')
