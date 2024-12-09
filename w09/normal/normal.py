@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Q1.'Workbook'モジュールで新規ファイルを作成しよう
 wb = openpyxl.???()
-output_path = Path('./output/normal_example.xlsx')
+output_path = Path('./output/output_example.xlsx')
 
 sheet1 = wb.active
 # Q2.'title'メソッドを使い，シート名を定義しよう
