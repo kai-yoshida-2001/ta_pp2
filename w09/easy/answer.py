@@ -51,7 +51,7 @@ write_num_cell = 'A4'
 '''
 select_sheet[write_num_cell] = '業種'
 
-output_path = Path('./output/output_sample.xlsx')
+output_path = Path('./output/output_example.xlsx')
 os.makedirs(output_path.parent, exist_ok=True)
 
 # Q7.'save'メソッドを使い，'output'ディレクトリにファイルを保存しよう
