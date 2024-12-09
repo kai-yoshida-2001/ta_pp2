@@ -31,7 +31,7 @@ C-x C-f ~/ta_pp2/w09/easy/command.sh
 source ~/venv/py3.10.12/bin/activate
 python3 easy.py
 #python3 answer.py
-libreoffice --nologo --writer ./output/easy_example.xlsx
+libreoffice --nologo --writer ./output/output_example.xlsx
 
 上記の形式に修正したら保存する
 C-x C-s
@@ -73,7 +73,7 @@ C-x C-f ~/ta_pp2/w09/normal/command.sh
 ./clean.sh
 python3 normal.py
 #python3 answer.py
-libreoffice --nologo --writer ./output/normal_example.xlsx
+libreoffice --nologo --writer ./output/output_example.xlsx
 
 上記の形式に修正したら保存する
 C-x C-s
@@ -113,7 +113,7 @@ C-x C-f ~/ta_pp2/w09/hard/command.sh
 source ~/venv/py3.10.12/bin/activate
 python3 hard.py
 #python3 answer.py
-libreoffice --nologo --writer ./output/hard_example.xlsx
+libreoffice --nologo --writer ./output/output_example.xlsx
 
 上記の形式に修正したら保存する
 C-x C-s
