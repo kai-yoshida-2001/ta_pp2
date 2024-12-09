@@ -3,7 +3,7 @@
 import openpyxl, os
 from pathlib import Path
 
-input_path = Path('./input/easy_sample.xlsx')
+input_path = Path('./input/easy_example.xlsx')
 # Q1.'load_workbook'メソッドを呼び出して，Excelファイルを読み込もう
 wb = openpyxl.load_workbook(input_path)
 
