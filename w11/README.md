@@ -29,6 +29,14 @@ Terminalを開く（Terminalでの操作は$で示す．$の前はディレク�
 上記内容のファイルを確認できたら
 easyへ進む
 
+# w11.5 answer.pyの編集
+8行目にて，メールアドレスの＠前を???にしています．
+このままでは実行することができないので，
+各自の学籍番号を入力し，保存した上で次の工程へ
+進んでください．
+例）
+recipient = b22d039@akita-pu.ac.jp
+
 # w11.5 演習問題（easy）
 ~/ta_pp2/w11$ cd easy/
 ~/ta_pp2/w11/easy$ ls
@@ -101,7 +109,7 @@ C-x C-s
 C-x k RET
 
 # w11.11 演習問題の確認
-C-x C-f ~/ta_pp2/w11/hard/hard.py
+C-x C-f ~/ta_pp2/w11/normal/normal.py
 
 問題一覧
 Q1.'query'を引数に与えることで，目的のメール情報だけを取得しよう
@@ -115,7 +123,7 @@ Q7.メールメッセージの件名を取得しよう
 プログラムが書けたら，保存して，実行結果を確認しよう
 C-x C-s
 C-x o 
-~/ta_pp2/w11/hard$ ./command.sh
+~/ta_pp2/w11/normal$ ./command.sh
 
 出力結果が一致したらPythonファイルを閉じる
 C-x o
